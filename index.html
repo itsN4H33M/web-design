@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Design</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/96cf35ec1a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- navbar -->
+    <div class=" backg container-fluid">
+        <header class="container pt-4">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand fs-2 text-warning" href="#">Travel<span
+                            class="guide fs-5 text-body-emphasis">Guide</span></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                            <li class="nav-item">
+                                <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Packages
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Honeymoon</a></li>
+                                    <li><a class="dropdown-item" href="#">Special</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">North India</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#">Transport</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#">Hotels</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#">Blogs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#">Support</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="row  mt-5 pt-5">
+                <div class="col-5 py-5"></div>
+                <div class=" enquiry col-2">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        ENQUIRY
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">PLEASE SHARE YOUR DETAILS..</h5>
+                                </div>
+                                <div class="modal-body">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Name</li>
+                                        <li class="list-group-item">Email</li>
+                                        <li class="list-group-item">Phone Number</li>
+                                        <li class="list-group-item">Your preference</li>
+                                        <li class="list-group-item">number of members</li>
+                                    </ul>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-success"
+                                        data-bs-dismiss="modal">SUBMIT</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="travel col-5 py-5">
+                    <h1 class="text-light">Travel</h1>
+                    <h1 class="cur text-light">far enough</h1>
+                    <h1 class="text-light">You meet</h1>
+                    <h1 class="cur text-light">yourself</h1>
+                </div>
+            </div>
+        </header>
+    </div>
+    <!-- honeymoon packages -->
+    <h1 class="text-center my-5">HONEYMOON PACKAGES</h1>
+    <div class="d-flex justify-content-center">
+        <div class="card" style="width: 18rem;">
+            <img src="./thoni (1).jpg" class="card-img-top p-4" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Kerala Honeymoon Packages</h5>
+                <h6 class="card-subtitle mb-2 text-danger">(04 Nights/05 Days)</h6>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">BOOK NOW</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="./maldives.jpg" class="card-img-top p-4" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Maldive Honeymoon Packages</h5>
+                <h6 class="card-subtitle mb-2 text-danger">(05 Nights/06 Days)</h6>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">BOOK NOW</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="./manali.jpeg" class="card-img-top p-4" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Manali Honeymoon Packages</h5>
+                <h6 class="card-subtitle mb-2 text-danger">(04 Nights/05 Days)</h6>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">BOOK NOW</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="./goa.jpg" class="card-img-top p-4" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Goa Honeymoon Packages</h5>
+                <h6 class="card-subtitle mb-2 text-danger">(03 Nights/04 Days)</h6>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">BOOK NOW</a>
+            </div>
+        </div>
+    </div>
+    <!-- more package button -->
+    <div class=" text-center my-3">
+        <button type="button" class="btn btn-primary">MORE PACAKGES</button>
+    </div>
+    <!-- special kerala tours -->
+    <div class="container-fluid bg-body-secondary">
+        <div class="text-center">
+            <h1>SPECIAL KERALA FESTIVAL TOURS</h1>
+        </div>
+
+        <div id="carouselExampleCaptions" class="carousel slide my-3">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner some">
+                <div class="carousel-item active">
+                    <img src="https://images.hdqwalls.com/download/travel-hd-1920x1080.jpg" class="d-block w-100"
+                        alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://www.pixelstalk.net/wp-content/uploads/2016/08/Travel-Images-For-Desktop.jpg"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://cdn.wallpapersafari.com/24/26/iC7slO.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-6">
+                    <iframe width="640" height="420" src="https://www.youtube.com/embed/R83BlU5nnbs"
+                        title="Signature Video  | Kerala Tourism | Experience God’s Own Country" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="col-6">
+                    <!-- Gallery -->
+                    <div class="row">
+                        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                            <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                                class="w-100 mb-1" alt="Boat on Calm Water" />
+
+                            <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp" class="w-100 mb-1"
+                                alt="Wintry Mountain Landscape" />
+                        </div>
+
+                        <div class="col-lg-4 mb-4 mb-lg-0">
+                            <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp" class="w-100 mb-1"
+                                alt="Mountains in the Clouds" />
+
+                            <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                                class="w-100 mb-1" alt="Boat on Calm Water" />
+                        </div>
+
+                        <div class="col-lg-4 mb-4 mb-lg-0">
+                            <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+                                class="w-100 mb-1" alt="Waves at Sea" />
+
+                            <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp" class="w-100 mb-1"
+                                alt="Yosemite National Park" />
+                        </div>
+                    </div>
+                    <!-- Gallery -->
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- north india tours -->
+    <h1 class="text-center mt-3">NORTH INDIAN TOURS</h1>
+    <div class="container d-flex justify-content-around my-3">
+        <div class="card px-3 py-2 rounded-4" style="width: 18rem ;height: 20rem;">
+            <img src="https://i.pinimg.com/originals/89/71/f7/8971f7073c94e5f0afe368188c1f9fb7.jpg"
+                class="card-img-top rounded-4 h-100" alt="...">
+        </div>
+        <div class="card px-3 py-2 rounded-4" style="width: 18rem; height: 20rem;">
+            <img src="https://www.seema.com/wp-content/uploads/2021/11/Taj-Mahal-Agra-India-755x1024.jpg"
+                class="card-img-top rounded-4 h-100" alt="...">
+        </div>
+        <div class="card px-3 py-2 rounded-4" style="width: 18rem; height: 20rem;">
+            <img src="https://timesofindia.indiatimes.com/photo/90129128/90129128.jpg"
+                class="card-img-top rounded-4 h-100" alt="...">
+        </div>
+        <div class="card px-3 py-2 rounded-4" style="width: 18rem; height: 20rem;">
+            <img src="https://static.toiimg.com//photo/100381566/100381566.jpg?imgsize=2124143"
+                class="card-img-top rounded-4 h-100" alt="...">
+        </div>
+    </div>
+    <hr>
+    <!-- premium features -->
+    <div class="container my-3">
+        <div class="text-center">
+            <h1>OUR PREMIUM FEATURES</h1>
+            <p style="color: rgb(227, 135, 227);">we will make your dreams come true</p>
+        </div>
+        <div class="d-flex justify-content-evenly">
+            <div class="card px-3 py-2 rounded-5" style="width: 15rem ;height: 17rem;">
+                <img src="./bike.jpg" class="card-img-top rounded-circle" alt="...">
+                <h5 class="card-title text-center">FREE BIKE RIDE</h5>
+                <a href="#" class="card-link text-center text-decoration-none">Learn More</a>
+            </div>
+            <div class="card px-3 py-2 rounded-5" style="width: 15rem; height: 17rem;">
+                <img src="./camp.jpg" class="card-img-top rounded-circle" alt="...">
+                <h5 class="card-title text-center">CAMP FIRE</h5>
+                <a href="#" class="card-link text-center text-decoration-none">Learn More</a>
+            </div>
+            <div class="card px-3 py-2 rounded-5" style="width: 15rem; height: 17rem;">
+                <img src="https://img.freepik.com/free-vector/flat-customer-support-illustration_23-2148899114.jpg?w=2000"
+                    class="card-img-top rounded-circle" alt="...">
+                <h5 class="card-title text-center">24X7 SUPPORT</h5>
+                <a href="#" class="card-link text-center text-decoration-none">Learn More</a>
+            </div>
+            <div class="card px-3 py-2 rounded-5" style="width: 15rem; height: 17rem;">
+                <img src="https://img.freepik.com/free-vector/tour-guide-concept-illustration_114360-2002.jpg?w=2000"
+                    class="card-img-top rounded-circle" alt="...">
+                <h5 class="card-title text-center">TOUR GUIDE</h5>
+                <a href="#" class="card-link text-center text-decoration-none">Learn More</a>
+            </div>
+        </div>
+    </div>
+    <!-- customer rating -->
+    <div class="container-fluid bg-body-secondary">
+        <div class="text-center py-3">
+            <i class="fa-solid fa-envelope-open-text fa-xl text-warning"></i>
+            <h5>Our customers love</h5>
+        </div>
+        <div class="container d-flex justify-content-evenly pb-3">
+            <div class="card rounded-0 bg-transparent border-0" style="width: 18rem;">
+                <img src="https://images.unsplash.com/flagged/photo-1576636215888-539d692c4136?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y291cGxlJTIwc2VsZmllfGVufDB8fDB8fHww&w=1000&q=80"
+                    class="card-img-top rounded-0" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Michael&Jenny</h5>
+                    <div class="d-flex justify-content-center">
+                        <div class="text-success mb-1 me-2">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                    </div>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+            <div class="card rounded-0 bg-transparent border-0" style="width: 18rem;">
+                <img src="https://wallpaperaccess.com/full/1317414.jpg" class="card-img-top rounded-0" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Rohith&Amrutha</h5>
+                    <div class="d-flex justify-content-center">
+                        <div class="text-success mb-1 me-2">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                    </div>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+            <div class="card rounded-0 bg-transparent border-0" style="width: 18rem;">
+                <img src="https://media.istockphoto.com/id/1135672153/photo/indian-couple-taking-selfie.jpg?s=612x612&w=0&k=20&c=UOnAuKBM64Jo0jlZdVZmjnybhey5QSiTEmvQZl7qpiA="
+                    class="card-img-top rounded-0" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center">James&Anna</h5>
+                    <div class="d-flex justify-content-center">
+                        <div class="text-success mb-1 me-2">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                    </div>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer div="container-fluid">
+        <div class="row pt-4">
+            <div class="col-2"></div>
+            <div class="col-2">
+                <h4 class="text-warning">ABOUT US</h4>
+                <h5 class="text-white">Our Company</h5>
+                <h5 class="text-white">Our Management</h5>
+                <h5 class="text-white">Connections</h5>
+                <h5 class="text-white">Annual Reports</h5>
+                <h5 class="text-white">Our Networks</h5>
+            </div>
+            <div class="col-4 text-center">
+                <h4 class="text-warning mb-4">SOCIAL MEDIA</h4>
+                <i class="fa-brands fa-facebook fa-2xl text-white mx-3"></i>
+                <i class="fa-brands fa-instagram fa-2xl text-white mx-3"></i>
+                <i class="fa-brands fa-twitter fa-2xl text-white mx-3"></i>
+                <i class="fa-brands fa-whatsapp fa-2xl text-white mx-3"></i>
+            </div>
+            <div class="col-4 text-center">
+                <img class="w-50" src="./travel-removebg-preview.png" alt="Explore">
+                <h5 class="text-white">Explore the world</h5>
+            </div>
+        </div>
+        <div class="text-center text-white">
+            <p> &copy; Travel Guide 2022 | Developed by Naheem</p>
+        </div>
+    </footer>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+
+</html>

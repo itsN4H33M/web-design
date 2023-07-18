@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.backg{
+    background-image: url("https://wallpapershome.com/images/pages/pic_h/378.jpg");
+    width: 100%;
+    background-attachment: fixed;
+    height: 700px;
+}
+
+.enquiry{
+    display: flex;
+    align-items: end;
+}
+
+.travel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cur{
+    font-family: cursive;
+}
+
+footer{
+    background-color: darkblue;
+}
+
+.some{
+    height: 400px;
+}
